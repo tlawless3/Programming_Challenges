@@ -10,10 +10,10 @@ public class jollyJumper {
 		int[] fifth= {4, 2, -1, 0, 2};
 		
 		System.out.println(jollyJumperCheck(first));
-	    System.out.println(jollyJumperCheck(second));
-	    System.out.println(jollyJumperCheck(third));
-	    System.out.println(jollyJumperCheck(fourth));
-	    System.out.println(jollyJumperCheck(fifth));
+		System.out.println(jollyJumperCheck(second));
+		System.out.println(jollyJumperCheck(third));
+		System.out.println(jollyJumperCheck(fourth));
+		System.out.println(jollyJumperCheck(fifth));
 	}
 	
 	public static String jollyJumperCheck(int[] i){
