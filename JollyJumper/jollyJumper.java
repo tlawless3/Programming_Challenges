@@ -21,8 +21,6 @@ public class jollyJumper {
 		String x = "Jolly";
 		int absDiffs[] = new int[i.length-1];
 		
-		//DONE store abs(differences) to array, check differences between numbers in array
-		//TODO re-read challenge understand it do it.
 		for (int j = 1; j < i.length - 1; j++){
 			absDiffs[j] = Math.abs(i[j] - i[j+1]);
 		}
